@@ -24,7 +24,7 @@ public class PanelGame extends JComponent
     private boolean start=true;
     private Key key;
     private int ShotTime;
-    private final int FPS=120;
+    private final int FPS=60;
     private final int TargetTime=1000000000/FPS;
     private Player player;
     private List<Bullet> bullets;
